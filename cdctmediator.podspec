@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/xujunquan/cdctmediator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xujunquan' => 'ian553087358@163.com' }
+  s.author           = { 'xujunquan' => 'x' }
   s.source           = { :git => 'https://github.com/xujunquan/cdctmediator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
