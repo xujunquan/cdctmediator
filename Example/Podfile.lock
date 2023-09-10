@@ -1,0 +1,23 @@
+PODS:
+  - cdctmediator (0.1.0):
+    - CTMediator (= 48)
+  - CTMediator (48)
+
+DEPENDENCIES:
+  - cdctmediator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  cdctmediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cdctmediator: eeefea24ced29c6884c6da3c237fcd97793bb2e1
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+
+PODFILE CHECKSUM: a6b3feab28773c6cc1cc366a147ed77bb50b7ae2
+
+COCOAPODS: 1.12.1

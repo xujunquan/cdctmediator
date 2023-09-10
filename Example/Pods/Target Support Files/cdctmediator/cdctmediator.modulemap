@@ -1,0 +1,6 @@
+framework module cdctmediator {
+  umbrella header "cdctmediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

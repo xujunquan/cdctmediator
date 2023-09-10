@@ -1,0 +1,6 @@
+framework module Pods_cdctmediator_Tests {
+  umbrella header "Pods-cdctmediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
