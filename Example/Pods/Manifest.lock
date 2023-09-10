@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cdctmediator: eeefea24ced29c6884c6da3c237fcd97793bb2e1
+  cdctmediator: 9a524624c17343e050edba969c6e0568244e16ed
   CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
 
 PODFILE CHECKSUM: a6b3feab28773c6cc1cc366a147ed77bb50b7ae2

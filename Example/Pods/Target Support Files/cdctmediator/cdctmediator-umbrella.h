@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CDCTMediator+bcmessage.h"
+#import "CDCTMediator.h"
 
 FOUNDATION_EXPORT double cdctmediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char cdctmediatorVersionString[];

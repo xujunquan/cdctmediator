@@ -9,14 +9,14 @@
     "file": "LICENSE"
   },
   "authors": {
-    "xujunquan": "ian553087358@163.com"
+    "xujunquan": "x"
   },
   "source": {
     "git": "https://github.com/xujunquan/cdctmediator.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "source_files": "cdctmediator/Classes/**/*",
   "dependencies": {
