@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CDCTMediator (bcmessage)
 
 - (id)messageTest;
-- (NSObject *)getMessageConfig;
+- (id)getMessageConfig;
 - (UIViewController *)getMessageController;
 
 @end

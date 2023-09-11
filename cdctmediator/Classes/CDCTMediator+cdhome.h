@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CDCTMediator (cdhome)
 
 - (id)homeTest;
-- (NSObject *)getHomeConfig;
+- (id)getHomeConfig;
 - (UIViewController *)getHomeController;
 
 @end

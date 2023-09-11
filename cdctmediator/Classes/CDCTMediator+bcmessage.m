@@ -13,8 +13,8 @@
     return [self getMessageConfig];
 }
 
-- (NSObject *)getMessageConfig {
-    NSObject *config = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetMessageConfig params:nil shouldCacheTarget:NO];
+- (id)getMessageConfig {
+    id config = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetMessageConfig params:nil shouldCacheTarget:NO];
     return config;
 }
 

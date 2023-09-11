@@ -13,8 +13,8 @@
     return [self getHomeConfig];
 }
 
-- (NSObject *)getHomeConfig {
-    NSObject *config = [[CDCTMediator sharedInstance] performTarget:TargetHome action:ActionGetConfig params:nil shouldCacheTarget:NO];
+- (id)getHomeConfig {
+    id config = [[CDCTMediator sharedInstance] performTarget:TargetHome action:ActionGetConfig params:nil shouldCacheTarget:NO];
     return config;
 }
 
