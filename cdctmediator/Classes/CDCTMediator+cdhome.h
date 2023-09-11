@@ -5,7 +5,7 @@
 //  Created by xujunquan on 2023/9/11.
 //
 
-#import <cdctmediator/cdctmediator.h>
+#import "CDCTMediator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
