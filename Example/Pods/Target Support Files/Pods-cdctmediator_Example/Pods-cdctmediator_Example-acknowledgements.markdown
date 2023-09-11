@@ -1,11 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## CTMediator
-
-MIT
-
-
 ## cdctmediator
 
 Copyright (c) 2023 xujunquan <ian553087358@163.com>

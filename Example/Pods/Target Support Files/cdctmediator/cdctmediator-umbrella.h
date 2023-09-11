@@ -11,6 +11,7 @@
 #endif
 
 #import "CDCTMediator+bcmessage.h"
+#import "CDCTMediator+HandyTools.h"
 #import "CDCTMediator.h"
 
 FOUNDATION_EXPORT double cdctmediatorVersionNumber;

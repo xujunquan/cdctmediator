@@ -1,17 +1,13 @@
 //
-//  CTMediator+HandyTools.m
-//  CTMediator
+//  CDCTMediator+HandyTools.m
+//  cdctmediator
 //
-//  Created by casa on 2020/3/10.
-//  Copyright © 2020 casa. All rights reserved.
+//  Created by xujunquan on 2023/9/11.
 //
 
-#if TARGET_OS_IOS
+#import "CDCTMediator+HandyTools.h"
 
-#import "CTMediator+HandyTools.h"
-
-@implementation CTMediator (HandyTools)
-
+@implementation CDCTMediator (HandyTools)
 - (UIWindow *)keyWindow {
     if (@available(iOS 13, *)) {
         NSArray<UIWindow *> *windows = [[UIApplication sharedApplication] windows];
@@ -77,7 +73,4 @@
         [viewController presentViewController:viewControllerToPresent animated:animated completion:completion];
     }
 }
-
 @end
-
-#endif
