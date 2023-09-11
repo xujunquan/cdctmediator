@@ -10,14 +10,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 #define TargetMessage @"BCMessage"
-#define ActionGetHome @"getMessageHome"
-#define ActionGetConfig @"getConfig"
+#define ActionGetMessageHome @"getMessageHome"
+#define ActionGetMessageConfig @"getConfig"
 
 
 @interface CDCTMediator (bcmessage)
 
-- (UIViewController *)getMessageHome;
-- (NSObject *)getConfig;
+- (id)messageTest;
+- (NSObject *)getMessageConfig;
+- (UIViewController *)getMessageController;
 
 @end
 

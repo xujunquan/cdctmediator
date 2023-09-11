@@ -9,14 +9,19 @@
 
 @implementation CDCTMediator (bcmessage)
 
-- (UIViewController *)getMessageHome {
-    UIViewController *message = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetHome params:nil shouldCacheTarget:NO];
+- (id)messageTest {
+    return [self getMessageConfig];
+}
+
+- (NSObject *)getMessageConfig {
+    NSObject *config = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetMessageConfig params:nil shouldCacheTarget:NO];
+    return config;
+}
+
+- (UIViewController *)getMessageController {
+    UIViewController *message = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetMessageHome params:nil shouldCacheTarget:NO];
     return message;
 }
 
-- (NSObject *)getConfig {
-    NSObject *config = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetConfig params:nil shouldCacheTarget:NO];
-    return config;
-}
 
 @end

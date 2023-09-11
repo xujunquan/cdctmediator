@@ -10,7 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CDConfig : NSObject
+@property (nonatomic, copy) NSString *env;
+@property (nonatomic, strong) NSMutableDictionary *config;
 
 @end
 
 NS_ASSUME_NONNULL_END
+

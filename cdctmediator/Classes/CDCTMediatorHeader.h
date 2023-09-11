@@ -12,5 +12,6 @@
 
 #import "CDConfig.h"
 #import "CDCTMediator+bcmessage.h"
+#import "CDCTMediator+cdhome.h"
 
 #endif /* CDCTMediatorHeader_h */
