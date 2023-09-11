@@ -10,7 +10,7 @@
 #define TargetHome          @"BCHome"
 #define ActionGetHome       @"getHome"
 #define ActionInitHomeWithConfig @"initWithConfig"
-#define ActionHomeTest      @"messageTest"
+#define ActionHomeTest      @"homeTest"
 
 @implementation CDCTMediator (cdhome)
 
