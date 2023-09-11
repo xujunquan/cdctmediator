@@ -7,15 +7,19 @@
 
 #import "CDCTMediator+cdhome.h"
 
+#define TargetHome          @"BCHome"
+#define ActionGetHome       @"getHome"
+#define ActionInitHomeWithConfig @"initWithConfig"
+#define ActionHomeTest      @"messageTest"
+
 @implementation CDCTMediator (cdhome)
 
-- (id)homeTest {
-    return [self getHomeConfig];
+- (void)homeTest {
+    [[CDCTMediator sharedInstance] performTarget:TargetHome action:ActionHomeTest params:nil shouldCacheTarget:NO];
 }
 
-- (id)getHomeConfig {
-    id config = [[CDCTMediator sharedInstance] performTarget:TargetHome action:ActionGetConfig params:nil shouldCacheTarget:NO];
-    return config;
+- (void)initHomeWithConfig:(NSDictionary *)config {
+    [[CDCTMediator sharedInstance] performTarget:TargetHome action:ActionInitHomeWithConfig params:config shouldCacheTarget:NO];
 }
 
 - (UIViewController *)getHomeController {

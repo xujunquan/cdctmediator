@@ -6,7 +6,7 @@
 //
 #if TARGET_OS_IOS
 
-#import "CDCTMediator.h"
+#import <cdctmediator/cdctmediator.h>
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN

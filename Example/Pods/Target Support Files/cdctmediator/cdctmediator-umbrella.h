@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "CDConfig.h"
 #import "CDCTMediator+bcmessage.h"
 #import "CDCTMediator+cdhome.h"
 #import "CDCTMediator+HandyTools.h"

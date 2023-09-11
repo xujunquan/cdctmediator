@@ -1,6 +1,6 @@
 {
   "name": "cdctmediator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of cdctmediator.",
   "description": "x",
   "homepage": "https://github.com/xujunquan/cdctmediator",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xujunquan/cdctmediator.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

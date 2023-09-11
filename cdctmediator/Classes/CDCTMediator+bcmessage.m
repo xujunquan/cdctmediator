@@ -7,15 +7,15 @@
 
 #import "CDCTMediator+bcmessage.h"
 
+#define TargetMessage           @"BCMessage"
+#define ActionGetMessageHome    @"getMessageHome"
+#define ActionInitMessageWithConfig @"initWithConfig"
+#define ActionMessageTest       @"messageTest"
+
 @implementation CDCTMediator (bcmessage)
 
-- (id)messageTest {
-    return [self getMessageConfig];
-}
-
-- (id)getMessageConfig {
-    id config = [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionGetMessageConfig params:nil shouldCacheTarget:NO];
-    return config;
+- (void)initMessageWithConfig:(NSDictionary *)config {
+    [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionInitMessageWithConfig params:config shouldCacheTarget:NO];
 }
 
 - (UIViewController *)getMessageController {
@@ -23,5 +23,8 @@
     return message;
 }
 
+- (void)messageTest {
+    [[CDCTMediator sharedInstance] performTarget:TargetMessage action:ActionMessageTest params:nil shouldCacheTarget:NO];
+}
 
 @end

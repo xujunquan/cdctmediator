@@ -9,8 +9,6 @@
 #define CDCTMediatorHeader_h
 
 #import "CDCTMediator+HandyTools.h"
-
-#import "CDConfig.h"
 #import "CDCTMediator+bcmessage.h"
 #import "CDCTMediator+cdhome.h"
 

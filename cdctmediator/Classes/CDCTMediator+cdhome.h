@@ -5,18 +5,14 @@
 //  Created by xujunquan on 2023/9/11.
 //
 
-#import "CDCTMediator.h"
+#import <cdctmediator/cdctmediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define TargetHome @"BCHome"
-#define ActionGetHome @"getHome"
-#define ActionGetConfig @"getConfig"
-
 @interface CDCTMediator (cdhome)
 
-- (id)homeTest;
-- (id)getHomeConfig;
+- (void)homeTest;
+- (void)initHomeWithConfig:(NSDictionary *)config;
 - (UIViewController *)getHomeController;
 
 @end

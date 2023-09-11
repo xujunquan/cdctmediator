@@ -1,5 +1,5 @@
 PODS:
-  - cdctmediator (0.1.0)
+  - cdctmediator (0.1.1)
 
 DEPENDENCIES:
   - cdctmediator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cdctmediator: 0a5de95496c38401e69d97d7e4bf546204cf4018
+  cdctmediator: 9d2f6bed1616c1e364c27a10c51f0d0fcc3cb667
 
 PODFILE CHECKSUM: a6b3feab28773c6cc1cc366a147ed77bb50b7ae2
 
