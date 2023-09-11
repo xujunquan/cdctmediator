@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define TargetMessage @"Target_BCMessage"
+#define TargetMessage @"BCMessage"
 #define ActionGetHome @"getMessageHome"
 #define ActionGetConfig @"getConfig"
 

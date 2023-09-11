@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0482E7D103CB1078EADF7DBA3A63FAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0310591D56F2E0CA66450CFC2E8188BB /* CDCTMediator+bcmessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E444EDBA0D9B0D2EF4062627083372 /* CDCTMediator+bcmessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3BB872356FA43F6EEC0486D218910A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		24348FEDA7F23B3F6F03D9EA79323EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3A858F26E56EC831DD1D379519EB26DD /* Pods-cdctmediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60FD5DBDAF948AFE03B3803027345B6 /* Pods-cdctmediator_Tests-dummy.m */; };
 		485B9D1BF3D0CDCECD14419DCDD5FA54 /* Pods-cdctmediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D23A8BA9832D516B0202D5322401C63D /* Pods-cdctmediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5020F2CC1908721E58B4890423778E44 /* Pods-cdctmediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4030105ADD156CEC27998CB765540204 /* Pods-cdctmediator_Example-dummy.m */; };
-		5A11A17E14B24EC088075FA389317407 /* CDCTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76585A7DC5C1E06203C9E86E177271 /* CDCTMediator+HandyTools.m */; };
-		5C1F9EEEBB140FE972CF082FD227C17E /* CDCTMediator+bcmessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B09DE5BC00E23BFF314C59898936B6 /* CDCTMediator+bcmessage.m */; };
-		84999E7157F644EB33FA7C891D7B420B /* CDCTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF2301E9FFA4C576B17F6C6483AEB8 /* CDCTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A526C9B0651CDE71A5B60A0851B99681 /* CDCTMediator+bcmessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F3E2E5EBF87B5A77503CF8F6D56DD4 /* CDCTMediator+bcmessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B346CCC65105FF0982B3B92CFB427091 /* cdctmediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D47D19418275B8A06FF945AE438A6A3 /* cdctmediator-dummy.m */; };
-		BE65AF353E43A8F67D3346825D2BF11D /* CDCTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA32A0235E942F20A0F2E6FF56B1104 /* CDCTMediator.m */; };
-		C8E5D65C8C49B56D8433B7033C4336EB /* cdctmediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9722A5D48E8AE6A85E600EE53B829728 /* cdctmediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51CD7298BA0EA2B8D3EB7E7E8724EFFB /* CDCTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DA85295A68BC9B659008D14F6502792C /* CDCTMediator.m */; };
+		6954F6327E444235FF6A4C00D9B9CEA3 /* CDCTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AF641CCCF55D3AE5FD34888B0C938B /* CDCTMediator+HandyTools.m */; };
+		787A87A04107196EBCA9012976A162E4 /* CDCTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E870AE4B398C58085EDAD7EE4EFA472F /* CDCTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28E86553A910B82BC8CFEAE66E4F71E /* cdctmediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D541015354F8894C8A9C1C70EE9AC /* cdctmediator-dummy.m */; };
+		C9960DBFED45C100E0C59E8964AF65AD /* CDCTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFC277CDAD10C8ACFFE8CB9DC61E4D8 /* CDCTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D633328449AA27810799EE43590EF958 /* Pods-cdctmediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7093E940A746F13A71507951641531E /* Pods-cdctmediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D66AC06155CA33540C1CF8AD376D8ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E34BB2A0ED6689852556A1B716D2913D /* CDCTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1E9CE62F15940A2991E576C651F229 /* CDCTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A03E1C1931EC1590A361E4885AEFEB /* CDCTMediator+bcmessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E569CEDB32D5337C803AEFCAA2031 /* CDCTMediator+bcmessage.m */; };
+		F0EE37C8E72E3829970116FCAC1AC478 /* cdctmediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F0E1B949677A1F718045F0F5B571AB /* cdctmediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1653FA9757FEC8FE535FBD9D5103F045 /* PBXContainerItemProxy */ = {
+		2EEDF3949F63EF02EF42A5672222EBAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B80AA467AEE324F385EBAEE526E503;
 			remoteInfo = cdctmediator;
 		};
-		BA652888B231FC5332F00E63871F86EF /* PBXContainerItemProxy */ = {
+		E587F06E799D5919A6EFE2477C373790 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,55 +42,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E76585A7DC5C1E06203C9E86E177271 /* CDCTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDCTMediator+HandyTools.m"; path = "cdctmediator/Classes/CDCTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		0B7E569CEDB32D5337C803AEFCAA2031 /* CDCTMediator+bcmessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDCTMediator+bcmessage.m"; path = "cdctmediator/Classes/CDCTMediator+bcmessage.m"; sourceTree = "<group>"; };
 		11168E9490720D7D03A0EC788F17E719 /* Pods-cdctmediator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cdctmediator_Example"; path = Pods_cdctmediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26BF2301E9FFA4C576B17F6C6483AEB8 /* CDCTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDCTMediator.h; path = cdctmediator/Classes/CDCTMediator.h; sourceTree = "<group>"; };
+		224203E16E48A58D11EE50EF408B8BC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2454DCA814B6AF0207272025D97E5355 /* cdctmediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cdctmediator.modulemap; sourceTree = "<group>"; };
 		2791B33B9A5E640F15B1F68FD8846CE4 /* Pods-cdctmediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cdctmediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2A1E9CE62F15940A2991E576C651F229 /* CDCTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDCTMediator+HandyTools.h"; path = "cdctmediator/Classes/CDCTMediator+HandyTools.h"; sourceTree = "<group>"; };
-		309D8409A9135F9615D94B249414DAED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		339D541015354F8894C8A9C1C70EE9AC /* cdctmediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cdctmediator-dummy.m"; sourceTree = "<group>"; };
 		33BD6DDD852A79CEAC3B53AD2066851A /* Pods-cdctmediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cdctmediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34FD5F086B303F8F8D28042FA9182424 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		37B09DE5BC00E23BFF314C59898936B6 /* CDCTMediator+bcmessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDCTMediator+bcmessage.m"; path = "cdctmediator/Classes/CDCTMediator+bcmessage.m"; sourceTree = "<group>"; };
+		35D34E3DD24385CBAA8EAD3DD0E1329E /* cdctmediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cdctmediator-Info.plist"; sourceTree = "<group>"; };
 		4030105ADD156CEC27998CB765540204 /* Pods-cdctmediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cdctmediator_Example-dummy.m"; sourceTree = "<group>"; };
 		44B207EC22AA436649A78390538F7202 /* Pods-cdctmediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cdctmediator_Example.modulemap"; sourceTree = "<group>"; };
 		5121F2E872E7079F1F3E27702C3F1B44 /* Pods-cdctmediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cdctmediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D855E9235E93FC7CD9325CB12FF2974 /* Pods-cdctmediator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cdctmediator_Tests"; path = Pods_cdctmediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		615161B50AC46CE507CFC23B57EA6561 /* Pods-cdctmediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cdctmediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63F9385FE63EB85C8B8A8FFCB90CD648 /* cdctmediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cdctmediator.release.xcconfig; sourceTree = "<group>"; };
 		673B74C81F64E32424579735B2B36D89 /* Pods-cdctmediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cdctmediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6D47D19418275B8A06FF945AE438A6A3 /* cdctmediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cdctmediator-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A9F4B0BEA12904E0F7D5E6D9EB7A6EF /* cdctmediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cdctmediator-Info.plist"; sourceTree = "<group>"; };
+		73899ABA2AACE6B815154896CAF3892C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75F0E1B949677A1F718045F0F5B571AB /* cdctmediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cdctmediator-umbrella.h"; sourceTree = "<group>"; };
+		78881B38D2B917A4A9C08D54A9200CF8 /* cdctmediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = cdctmediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EE2CA6ADE096F5967BDFF2412349A89 /* cdctmediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cdctmediator-prefix.pch"; sourceTree = "<group>"; };
 		882D5F36CFE73B1A1E01E8A5BD8F0362 /* Pods-cdctmediator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cdctmediator_Example-Info.plist"; sourceTree = "<group>"; };
-		8CA32A0235E942F20A0F2E6FF56B1104 /* CDCTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDCTMediator.m; path = cdctmediator/Classes/CDCTMediator.m; sourceTree = "<group>"; };
-		9483A40B9DEBF7CDEEAFE9FFAB3D0D0C /* cdctmediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = cdctmediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9722A5D48E8AE6A85E600EE53B829728 /* cdctmediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cdctmediator-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AFC277CDAD10C8ACFFE8CB9DC61E4D8 /* CDCTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDCTMediator.h; path = cdctmediator/Classes/CDCTMediator.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A42FC34803F029BC2C6D8DA62B4E5FE3 /* Pods-cdctmediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cdctmediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AEEA1C03233D120B75B0BC39944C9FFA /* cdctmediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cdctmediator-prefix.pch"; sourceTree = "<group>"; };
-		AFCFB95B315526913439D0AEF24BD804 /* cdctmediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cdctmediator.modulemap; sourceTree = "<group>"; };
-		B295FA53F038BA5511EED0A64D76E0FD /* cdctmediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cdctmediator.debug.xcconfig; sourceTree = "<group>"; };
+		A7E444EDBA0D9B0D2EF4062627083372 /* CDCTMediator+bcmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDCTMediator+bcmessage.h"; path = "cdctmediator/Classes/CDCTMediator+bcmessage.h"; sourceTree = "<group>"; };
 		B45B240B9DFEC1D38C1E41A120EC77CF /* cdctmediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = cdctmediator; path = cdctmediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AF641CCCF55D3AE5FD34888B0C938B /* CDCTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDCTMediator+HandyTools.m"; path = "cdctmediator/Classes/CDCTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		B60FD5DBDAF948AFE03B3803027345B6 /* Pods-cdctmediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cdctmediator_Tests-dummy.m"; sourceTree = "<group>"; };
 		CED294D5674079AD8FB23DAB40A4F5AD /* Pods-cdctmediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cdctmediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CF182903DB3FAE29B8FB5AC3B5DADD2B /* Pods-cdctmediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cdctmediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFEA96AB3D5997C89AF0E6C657830D1A /* Pods-cdctmediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cdctmediator_Tests-Info.plist"; sourceTree = "<group>"; };
 		D23A8BA9832D516B0202D5322401C63D /* Pods-cdctmediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cdctmediator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D2F3E2E5EBF87B5A77503CF8F6D56DD4 /* CDCTMediator+bcmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDCTMediator+bcmessage.h"; path = "cdctmediator/Classes/CDCTMediator+bcmessage.h"; sourceTree = "<group>"; };
+		D5545DC5F70C9ED0F6C521E8EA52476C /* cdctmediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cdctmediator.debug.xcconfig; sourceTree = "<group>"; };
 		D7093E940A746F13A71507951641531E /* Pods-cdctmediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cdctmediator_Example-umbrella.h"; sourceTree = "<group>"; };
-		D86D329382FCACE05C806E2A7D39C91A /* cdctmediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cdctmediator.release.xcconfig; sourceTree = "<group>"; };
+		DA85295A68BC9B659008D14F6502792C /* CDCTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDCTMediator.m; path = cdctmediator/Classes/CDCTMediator.m; sourceTree = "<group>"; };
 		E393B7D2C7D54C7D6C097322112867AD /* Pods-cdctmediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cdctmediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E870AE4B398C58085EDAD7EE4EFA472F /* CDCTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDCTMediator+HandyTools.h"; path = "cdctmediator/Classes/CDCTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		F2215E3B9EB956C63A7888EBEEA71C9A /* Pods-cdctmediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cdctmediator_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07050703E5E01902BBFCED9BB256DD97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0482E7D103CB1078EADF7DBA3A63FAB7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0E27C70838C19F0C99C5F0B879AA792F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,50 +99,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5734F1BB8A7DD2EDFE86F0F88ADC982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3BB872356FA43F6EEC0486D218910A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0811AA25C94E13BC2EE3364E9C8E1B74 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9483A40B9DEBF7CDEEAFE9FFAB3D0D0C /* cdctmediator.podspec */,
-				34FD5F086B303F8F8D28042FA9182424 /* LICENSE */,
-				309D8409A9135F9615D94B249414DAED /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		09301DD4EBE1C469E905705D526A86A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AFCFB95B315526913439D0AEF24BD804 /* cdctmediator.modulemap */,
-				6D47D19418275B8A06FF945AE438A6A3 /* cdctmediator-dummy.m */,
-				7A9F4B0BEA12904E0F7D5E6D9EB7A6EF /* cdctmediator-Info.plist */,
-				AEEA1C03233D120B75B0BC39944C9FFA /* cdctmediator-prefix.pch */,
-				9722A5D48E8AE6A85E600EE53B829728 /* cdctmediator-umbrella.h */,
-				B295FA53F038BA5511EED0A64D76E0FD /* cdctmediator.debug.xcconfig */,
-				D86D329382FCACE05C806E2A7D39C91A /* cdctmediator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/cdctmediator";
-			sourceTree = "<group>";
-		};
-		0C33B7C1A25A1D7251A4AD451791E852 /* cdctmediator */ = {
-			isa = PBXGroup;
-			children = (
-				26BF2301E9FFA4C576B17F6C6483AEB8 /* CDCTMediator.h */,
-				8CA32A0235E942F20A0F2E6FF56B1104 /* CDCTMediator.m */,
-				D2F3E2E5EBF87B5A77503CF8F6D56DD4 /* CDCTMediator+bcmessage.h */,
-				37B09DE5BC00E23BFF314C59898936B6 /* CDCTMediator+bcmessage.m */,
-				2A1E9CE62F15940A2991E576C651F229 /* CDCTMediator+HandyTools.h */,
-				0E76585A7DC5C1E06203C9E86E177271 /* CDCTMediator+HandyTools.m */,
-				0811AA25C94E13BC2EE3364E9C8E1B74 /* Pod */,
-				09301DD4EBE1C469E905705D526A86A3 /* Support Files */,
-			);
-			name = cdctmediator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		109754EB45483781E56141C419A8B4D3 /* Pods-cdctmediator_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +124,37 @@
 			);
 			name = "Pods-cdctmediator_Tests";
 			path = "Target Support Files/Pods-cdctmediator_Tests";
+			sourceTree = "<group>";
+		};
+		243FAB39CD8FF3D489728E3112E4C400 /* cdctmediator */ = {
+			isa = PBXGroup;
+			children = (
+				8AFC277CDAD10C8ACFFE8CB9DC61E4D8 /* CDCTMediator.h */,
+				DA85295A68BC9B659008D14F6502792C /* CDCTMediator.m */,
+				A7E444EDBA0D9B0D2EF4062627083372 /* CDCTMediator+bcmessage.h */,
+				0B7E569CEDB32D5337C803AEFCAA2031 /* CDCTMediator+bcmessage.m */,
+				E870AE4B398C58085EDAD7EE4EFA472F /* CDCTMediator+HandyTools.h */,
+				B5AF641CCCF55D3AE5FD34888B0C938B /* CDCTMediator+HandyTools.m */,
+				839DC48AD0F140E7E7311BE14BE90F37 /* Pod */,
+				3E837BE5A18C86D613BE386EF18330C9 /* Support Files */,
+			);
+			name = cdctmediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3E837BE5A18C86D613BE386EF18330C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2454DCA814B6AF0207272025D97E5355 /* cdctmediator.modulemap */,
+				339D541015354F8894C8A9C1C70EE9AC /* cdctmediator-dummy.m */,
+				35D34E3DD24385CBAA8EAD3DD0E1329E /* cdctmediator-Info.plist */,
+				7EE2CA6ADE096F5967BDFF2412349A89 /* cdctmediator-prefix.pch */,
+				75F0E1B949677A1F718045F0F5B571AB /* cdctmediator-umbrella.h */,
+				D5545DC5F70C9ED0F6C521E8EA52476C /* cdctmediator.debug.xcconfig */,
+				63F9385FE63EB85C8B8A8FFCB90CD648 /* cdctmediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/cdctmediator";
 			sourceTree = "<group>";
 		};
 		56CE306F5E0BBC9C2C2B1E77D88681CB /* Targets Support Files */ = {
@@ -184,10 +174,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66054B6F0794130018E8D3A9081524A0 /* Development Pods */ = {
+		839DC48AD0F140E7E7311BE14BE90F37 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0C33B7C1A25A1D7251A4AD451791E852 /* cdctmediator */,
+				78881B38D2B917A4A9C08D54A9200CF8 /* cdctmediator.podspec */,
+				73899ABA2AACE6B815154896CAF3892C /* LICENSE */,
+				224203E16E48A58D11EE50EF408B8BC2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B7C69390D96A7FFE87F39BF5D44ED601 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAB39CD8FF3D489728E3112E4C400 /* cdctmediator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66054B6F0794130018E8D3A9081524A0 /* Development Pods */,
+				B7C69390D96A7FFE87F39BF5D44ED601 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				CEF3327D286AB1D9B022A0E3D2582CC5 /* Products */,
 				56CE306F5E0BBC9C2C2B1E77D88681CB /* Targets Support Files */,
@@ -249,14 +249,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD6CC3A24E443E797EC4C92AE9DDCAC2 /* Headers */ = {
+		3E26936AA8C447B508DE054FD0226480 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84999E7157F644EB33FA7C891D7B420B /* CDCTMediator.h in Headers */,
-				A526C9B0651CDE71A5B60A0851B99681 /* CDCTMediator+bcmessage.h in Headers */,
-				E34BB2A0ED6689852556A1B716D2913D /* CDCTMediator+HandyTools.h in Headers */,
-				C8E5D65C8C49B56D8433B7033C4336EB /* cdctmediator-umbrella.h in Headers */,
+				C9960DBFED45C100E0C59E8964AF65AD /* CDCTMediator.h in Headers */,
+				0310591D56F2E0CA66450CFC2E8188BB /* CDCTMediator+bcmessage.h in Headers */,
+				787A87A04107196EBCA9012976A162E4 /* CDCTMediator+HandyTools.h in Headers */,
+				F0EE37C8E72E3829970116FCAC1AC478 /* cdctmediator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4460AFD3F4D0E5B3F9C797BD22FBC1F7 /* PBXTargetDependency */,
+				AE336B9260D047E07EBD94433FDCFA04 /* PBXTargetDependency */,
 			);
 			name = "Pods-cdctmediator_Tests";
 			productName = Pods_cdctmediator_Tests;
@@ -292,12 +292,12 @@
 		};
 		82B80AA467AEE324F385EBAEE526E503 /* cdctmediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22148B54FB361404C91DCCD3D5E12187 /* Build configuration list for PBXNativeTarget "cdctmediator" */;
+			buildConfigurationList = 90A799A76C2F808037BEA7E22344796C /* Build configuration list for PBXNativeTarget "cdctmediator" */;
 			buildPhases = (
-				CD6CC3A24E443E797EC4C92AE9DDCAC2 /* Headers */,
-				EF6AB84022E1B5A75965C9A1A381FC75 /* Sources */,
-				07050703E5E01902BBFCED9BB256DD97 /* Frameworks */,
-				2F4D6CBC9B7ED06F787D9184795E64F7 /* Resources */,
+				3E26936AA8C447B508DE054FD0226480 /* Headers */,
+				742A98F0E736E40CFEF6C15609D516DA /* Sources */,
+				F5734F1BB8A7DD2EDFE86F0F88ADC982 /* Frameworks */,
+				ECEB1E968EEA2B9FF3EF176422A8856C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -320,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F8BEC621B41604214D3DB6BCAE09FAC5 /* PBXTargetDependency */,
+				F072F55A1FE1D7C84C85F56C495D65A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-cdctmediator_Example";
 			productName = Pods_cdctmediator_Example;
@@ -357,14 +357,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F4D6CBC9B7ED06F787D9184795E64F7 /* Resources */ = {
+		C767B3D2A4D2556E4EE04235A364BABE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C767B3D2A4D2556E4EE04235A364BABE /* Resources */ = {
+		ECEB1E968EEA2B9FF3EF176422A8856C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,6 +389,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		742A98F0E736E40CFEF6C15609D516DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CD7298BA0EA2B8D3EB7E7E8724EFFB /* CDCTMediator.m in Sources */,
+				E2A03E1C1931EC1590A361E4885AEFEB /* CDCTMediator+bcmessage.m in Sources */,
+				6954F6327E444235FF6A4C00D9B9CEA3 /* CDCTMediator+HandyTools.m in Sources */,
+				A28E86553A910B82BC8CFEAE66E4F71E /* cdctmediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		822B6C2DF6445EF624229307D56749FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,31 +408,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6AB84022E1B5A75965C9A1A381FC75 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE65AF353E43A8F67D3346825D2BF11D /* CDCTMediator.m in Sources */,
-				5C1F9EEEBB140FE972CF082FD227C17E /* CDCTMediator+bcmessage.m in Sources */,
-				5A11A17E14B24EC088075FA389317407 /* CDCTMediator+HandyTools.m in Sources */,
-				B346CCC65105FF0982B3B92CFB427091 /* cdctmediator-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4460AFD3F4D0E5B3F9C797BD22FBC1F7 /* PBXTargetDependency */ = {
+		AE336B9260D047E07EBD94433FDCFA04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-cdctmediator_Example";
 			target = F799665CA2B08C9B05BAEEE4A931A06D /* Pods-cdctmediator_Example */;
-			targetProxy = BA652888B231FC5332F00E63871F86EF /* PBXContainerItemProxy */;
+			targetProxy = E587F06E799D5919A6EFE2477C373790 /* PBXContainerItemProxy */;
 		};
-		F8BEC621B41604214D3DB6BCAE09FAC5 /* PBXTargetDependency */ = {
+		F072F55A1FE1D7C84C85F56C495D65A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = cdctmediator;
 			target = 82B80AA467AEE324F385EBAEE526E503 /* cdctmediator */;
-			targetProxy = 1653FA9757FEC8FE535FBD9D5103F045 /* PBXContainerItemProxy */;
+			targetProxy = 2EEDF3949F63EF02EF42A5672222EBAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,9 +459,9 @@
 			};
 			name = Debug;
 		};
-		4B4B9DD4F16140D1D7096AF1C72CC885 /* Debug */ = {
+		2A77FC33E023E7DD472C361B93E60817 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B295FA53F038BA5511EED0A64D76E0FD /* cdctmediator.debug.xcconfig */;
+			baseConfigurationReference = 63F9385FE63EB85C8B8A8FFCB90CD648 /* cdctmediator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,10 +484,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4F1F6B9BADBD51D6960A3CB4AE0C0376 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -556,37 +557,6 @@
 			};
 			name = Debug;
 		};
-		77EBBFA0AED19D4129D51D951598363A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D86D329382FCACE05C806E2A7D39C91A /* cdctmediator.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/cdctmediator/cdctmediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/cdctmediator/cdctmediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/cdctmediator/cdctmediator.modulemap";
-				PRODUCT_MODULE_NAME = cdctmediator;
-				PRODUCT_NAME = cdctmediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,11 +612,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		BBB836D13074FB3252FB3BE47486F183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5545DC5F70C9ED0F6C521E8EA52476C /* cdctmediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/cdctmediator/cdctmediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cdctmediator/cdctmediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cdctmediator/cdctmediator.modulemap";
+				PRODUCT_MODULE_NAME = cdctmediator;
+				PRODUCT_NAME = cdctmediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -751,15 +752,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22148B54FB361404C91DCCD3D5E12187 /* Build configuration list for PBXNativeTarget "cdctmediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B4B9DD4F16140D1D7096AF1C72CC885 /* Debug */,
-				77EBBFA0AED19D4129D51D951598363A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2F32167FD1C4B3042862756A909C4F5B /* Build configuration list for PBXNativeTarget "Pods-cdctmediator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -774,6 +766,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A799A76C2F808037BEA7E22344796C /* Build configuration list for PBXNativeTarget "cdctmediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB836D13074FB3252FB3BE47486F183 /* Debug */,
+				2A77FC33E023E7DD472C361B93E60817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
